@@ -6,9 +6,9 @@ use is\Helpers\System;
 use is\Helpers\Objects;
 use is\Helpers\Strings;
 
-$instance = $object -> get('instance');
-$sets = &$object -> settings;
-$data = $object -> getData();
+$instance = $this -> get('instance');
+$sets = &$this -> settings;
+$data = $this -> getData();
 
 if (!empty($data)) :
 	foreach ($data as $key => $item) :
